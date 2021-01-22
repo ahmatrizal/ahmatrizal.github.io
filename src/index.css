@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    'Satisfy'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  background-color: none;
+
+}
+
+.nav-link {
+  margin-left: 40px;
+  cursor: pointer;
+  color: white !important;
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid rgb(72, 72, 117);
+  width: 50%;
+  margin: auto;
+  margin-bottom: -6px;
+}
+
+.jumbotron {
+  background: url(./jumbo.jpg);
+  background-size: cover;
+  color: white;
+  height: 640px;
+  position: relative;
+}
+
+#text-jumbo {
+  border: 5px rgb(72, 72, 117) solid;
+  padding: 3px 3px 3px 3px;
+  text-align: center;
+  text-shadow: 1px 1px 1px;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 400px;
+  height: 300px;
+  font-family: 'Comfortaa',
+    cursive;
+
+}
+
+.image-jumbo {
+  z-index: 1;
+  position: relative;
+}
+
+#logo {
+  font-family: 'Satisfy',
+    cursive;
+
+  font-size: xx-large;
+}
+
+#basic-navbar-nav {
+  font-family: 'Comfortaa',
+    cursive;
+}
+
+.btn-primary {
+  background-color: rgb(72, 72, 117) !important;
+  border-radius: 40px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .navbar {
+    background-color: rgb(72, 72, 117);
+  }
+
+  #logo {
+    font-family: 'Satisfy',
+      cursive;
+    color: white(13, 0, 255, 0.815);
+    font-size: xx-large;
+  }
+
+  .nav-link {
+    cursor: pointer;
+    color: white !important;
+    margin-top: 12px;
+    text-shadow: 1px 1px 1px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgb(72, 72, 117);
+    width: 50%;
+    margin: auto;
+    margin-bottom: -6px;
+  }
+
+  .jumbotron {
+    background: url(./jumbo.jpg);
+    background-size: cover;
+  }
+
+  #text-jumbo {
+    border: 5px rgb(72, 72, 117) solid;
+    color: white;
+    text-shadow: 1px 1px 1px;
+    text-align: center;
+    margin: 265px 20px 0 20px;
+
+    height: 340px;
+
+  }
+
+  .btn-primary {
+    background-color: rgb(72, 72, 117) !important;
+    border-radius: 40px !important;
+  }
+}
