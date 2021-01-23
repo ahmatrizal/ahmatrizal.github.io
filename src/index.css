@@ -63,7 +63,7 @@ body {
 }
 
 .about {
-  height: 400px;
+  height: 500px;
   background-color: rgb(214, 213, 213);
   margin-top: -58px;
   padding-top: 100px;
@@ -78,6 +78,10 @@ body {
   text-align: justify;
 }
 
+.experience {
+  margin-top: 20px;
+  height: 500px;
+}
 
 
 
