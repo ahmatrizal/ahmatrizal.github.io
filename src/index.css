@@ -1,13 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    'Satisfy'
-    sans-serif;
+  font-family: 'Comfortaa',
+    cursive !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,6 +9,13 @@ body {
 .navbar {
   background-color: none;
 
+}
+
+#logo {
+  font-family: 'Satisfy',
+    cursive;
+
+  font-size: xx-large;
 }
 
 .nav-link {
@@ -38,20 +39,22 @@ body {
   color: white;
   height: 640px;
   position: relative;
+
 }
 
 #text-jumbo {
-  border: 5px rgb(72, 72, 117) solid;
+  align-content: center;
   padding: 3px 3px 3px 3px;
-  text-align: center;
-  text-shadow: 1px 1px 1px;
   margin-top: 100px;
-  margin-left: 100px;
-  width: 400px;
-  height: 300px;
+
+  text-shadow: 1px 1px 1px;
   font-family: 'Comfortaa',
     cursive;
+}
 
+#text-jumbo h1 {
+  font-family: 'Satisfy',
+    cursive;
 }
 
 .image-jumbo {
@@ -59,17 +62,24 @@ body {
   position: relative;
 }
 
-#logo {
-  font-family: 'Satisfy',
-    cursive;
-
-  font-size: xx-large;
+.about {
+  height: 400px;
+  background-color: rgb(214, 213, 213);
+  margin-top: -58px;
+  padding-top: 100px;
 }
 
-#basic-navbar-nav {
-  font-family: 'Comfortaa',
-    cursive;
+
+.about h3 {
+  text-align: left;
 }
+
+.about p {
+  text-align: justify;
+}
+
+
+
 
 .btn-primary {
   background-color: rgb(72, 72, 117) !important;
@@ -116,7 +126,7 @@ code {
   }
 
   #text-jumbo {
-    border: 5px rgb(72, 72, 117) solid;
+
     color: white;
     text-shadow: 1px 1px 1px;
     text-align: center;
