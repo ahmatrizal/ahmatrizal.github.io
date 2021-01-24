@@ -18,8 +18,8 @@ function AboutComponent() {
 
                     <Button variant="primary"> Download CV </Button>
                 </Col>
-                <Col md={6} xs={12}>
-                   <Image src="assets/images/parallax.jpg" className="w-100" />
+                <Col md={6} xs={12} className="mt-3">
+                   <Image src="assets/images/profile.jpg" className="img" />
                 </Col>
 
             </Row>

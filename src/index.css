@@ -22,6 +22,7 @@ body {
   margin-left: 40px;
   cursor: pointer;
   color: white !important;
+  text-shadow: 1px 1px 1px;
 }
 
 .nav-link:hover::after {
@@ -31,6 +32,7 @@ body {
   width: 50%;
   margin: auto;
   margin-bottom: -6px;
+
 }
 
 .jumbotron {
@@ -57,16 +59,13 @@ body {
     cursive;
 }
 
-.image-jumbo {
-  z-index: 1;
-  position: relative;
-}
 
 .about {
   height: 500px;
   background-color: rgb(214, 213, 213);
   margin-top: -58px;
   padding-top: 100px;
+  position: relative;
 }
 
 
@@ -78,11 +77,42 @@ body {
   text-align: justify;
 }
 
+.img {
+  width: 400px;
+  height: 380px;
+}
+
 .experience {
   margin-top: 20px;
   height: 500px;
+  display: inline-flex;
+  margin-left: -20px;
 }
 
+.img-card {
+  height: 250px;
+  width: 200px;
+}
+
+.portfolio {
+  height: 500px;
+}
+
+.contact {
+  background-color: rgb(72, 72, 117);
+  height: auto;
+  padding-top: 20px;
+}
+
+.contact-2 {
+  display: flex;
+}
+
+.garis_verikal {
+  border-left: 1px black solid;
+  height: 70px;
+  width: 0px;
+}
 
 
 .btn-primary {
@@ -138,6 +168,27 @@ code {
 
     height: 340px;
 
+  }
+
+  .about {
+    height: 700px;
+    background-color: rgb(214, 213, 213);
+    padding-top: 50px;
+  }
+
+  .img {
+
+    height: 350px;
+  }
+
+  .experience {
+    margin-top: 20px;
+    margin-bottom: -100px;
+  }
+
+
+  .card {
+    margin-bottom: 70px;
   }
 
   .btn-primary {

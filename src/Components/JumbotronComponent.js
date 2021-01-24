@@ -6,9 +6,9 @@ function JumbotronComponent () {
         <div>
             <Jumbotron>
                 <div id="text-jumbo">
-                <h1>There is No Finished in Learning</h1>
+                <h1>Hi i'm Ahmat Rizal</h1>
                 <p>
-                    "I Like Programming"
+                    "This is My Website"
                 </p>
                 </div>
             </Jumbotron>

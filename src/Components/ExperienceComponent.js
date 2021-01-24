@@ -1,14 +1,17 @@
 import React from 'react'
-import { Card} from 'react-bootstrap'
+import { Card, Col, Container, Row} from 'react-bootstrap'
 
 
 function ExperienceComponent({ imageUrl, tanggal, namaPT, jabatan, descripisi}) {
     return (
-        <div>
+        <div className="experience">
+            <Container>
+                <Row>
+                    <Col>
             <Card>
-            <Card.Img variant="top"src={imageUrl} />
+            <Card.Img variant="top" className="img-card" src={imageUrl} />
             <Card.Body>
-                <Card.Title>{namaPT}</Card.Title>
+                <Card.Title><b>{namaPT}</b></Card.Title>
                 <Card.Text>
                 <p>{jabatan}</p>
                 <small>( {tanggal} )</small>
@@ -17,6 +20,11 @@ function ExperienceComponent({ imageUrl, tanggal, namaPT, jabatan, descripisi}) 
                         
             </Card.Body>
             </Card>
+                    
+                    </Col>
+
+                </Row>
+            </Container>
         </div>
     )
 }
