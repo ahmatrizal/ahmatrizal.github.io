@@ -14,6 +14,7 @@ function App() {
       <Navbar /> 
       <Jumbotron />  
       <About />
+      <Portfolio />
             <h3 className="mt-5">Experience</h3>
             <hr />
           <Experience 
@@ -40,7 +41,7 @@ function App() {
             namaPT="Circle K" 
             jabatan="Customer Service Reprecentative"
             descripisi="haaa" />
-        <Portfolio />
+  
         <Contact />
     </div>
   );

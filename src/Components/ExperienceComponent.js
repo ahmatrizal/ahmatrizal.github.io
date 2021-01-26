@@ -1,10 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Card, Col, Container, Row} from 'react-bootstrap'
-
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 function ExperienceComponent({ imageUrl, tanggal, namaPT, jabatan, descripisi}) {
+     useEffect(() => {
+        Aos.init({ duration: 1000 })
+    }, [])
+    
+
     return (
-        <div className="experience">
+        <div className="experience" data-aos="flip-up">
             <Container>
                 <Row>
                     <Col>

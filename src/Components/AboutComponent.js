@@ -1,12 +1,21 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Col, Container, Row, Button, Image } from 'react-bootstrap'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 function AboutComponent() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+
     return (
         <div className="about">
           <Container> 
             <Row>
-                <Col md={6} xs={12}>
+                <Col md={6} xs={12} data-aos="fade-right">
+                   <Image src="assets/images/profil.png" className="w-100" />
+                </Col>
+                <Col md={6} xs={12} data-aos="fade-up" className="mt-3">
                     <h3>My Profile</h3>
                     <p>
                         Saya sangat antusias terkait dengan dunia Programming, 
@@ -17,9 +26,6 @@ function AboutComponent() {
                     </p>
 
                     <Button variant="primary"> Download CV </Button>
-                </Col>
-                <Col md={6} xs={12} className="mt-3">
-                   <Image src="assets/images/profile.jpg" className="img" />
                 </Col>
 
             </Row>
