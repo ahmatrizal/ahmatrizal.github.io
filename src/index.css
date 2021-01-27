@@ -85,6 +85,10 @@ body {
   margin-left: -20px;
 }
 
+.card {
+  box-shadow: yellow 3px 3px 3px;
+}
+
 .img-card {
   height: 250px;
   width: 200px;
@@ -95,24 +99,17 @@ body {
   background-image: url(./tengah.png);
   background-size: cover;
   height: 700px;
+  color: white;
 }
 
 .contact {
   background-image: url(./bawah.png);
   background-size: cover;
-  height: auto;
-  padding-top: 20px;
+  height: 500px;
+  color: white;
+  padding-top: 40px;
 }
 
-.contact-2 {
-  display: flex;
-}
-
-.garis_verikal {
-  border-left: 1px black solid;
-  height: 70px;
-  width: 0px;
-}
 
 
 .btn-primary {
@@ -138,7 +135,7 @@ code {
   #logo {
     font-family: 'Satisfy',
       cursive;
-    color: white(13, 0, 255, 0.815);
+    color: white !important;
     font-size: xx-large;
   }
 
@@ -189,11 +186,21 @@ code {
     margin-top: 20px;
     margin-bottom: -100px;
     display: flex;
+    height: 540px;
   }
 
 
   .card {
     margin-bottom: 70px;
+  }
+
+  .contact {
+    background-image: url(./bawah.png);
+    background-size: cover;
+    height: 100%;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 20px;
   }
 
   .btn-primary {

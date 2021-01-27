@@ -15,7 +15,7 @@ function App() {
       <Jumbotron />  
       <About />
       <Portfolio />
-            <h3 className="mt-5">Experience</h3>
+            <h1 className="mt-5">Experience</h1>
             <hr />
           <Experience 
             imageUrl="assets/images/Experience/jasnita.png" 
@@ -24,9 +24,9 @@ function App() {
             jabatan="3C BPJSTK"
             descripisi="huuuu" />
           <Experience 
-            imageUrl="http://placekitten.com/g/300/200" 
+            imageUrl="assets/images/Experience/Essence.png" 
             tanggal="Apr 2016 - Agt 2017" 
-            namaPT="Esence Group" 
+            namaPT="Essence Group" 
             jabatan="Data Analyst System"
             descripisi="heeee" />
           <Experience 

@@ -9,7 +9,7 @@ function NavbarComponent() {
                 
         <Navbar variant="dark" fixed="top" expand="xl">
             <Container>
-            <Navbar.Brand id="logo" href="#home">AhmtR.</Navbar.Brand>
+            <Navbar.Brand id="logo">AhmtR.</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="ml-auto">

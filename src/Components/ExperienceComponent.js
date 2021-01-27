@@ -10,7 +10,7 @@ function ExperienceComponent({ imageUrl, tanggal, namaPT, jabatan, descripisi}) 
     
 
     return (
-        <div className="experience" id="experience" data-aos="flip-up">
+        <div className="experience" id="experience" data-aos="flip-up" >
             <Container>
                 <Row>
                     <Col>
@@ -20,8 +20,7 @@ function ExperienceComponent({ imageUrl, tanggal, namaPT, jabatan, descripisi}) 
                 <Card.Title><b>{namaPT}</b></Card.Title>
                 <Card.Text>
                 <p>{jabatan}</p>
-                <small>( {tanggal} )</small>
-                    {descripisi} 
+                <p>( {tanggal} )</p>
                 </Card.Text>
                         
             </Card.Body>
