@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import { Col, Container, Row, Button, Image } from 'react-bootstrap'
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import MyPDF from '../CV.pdf'
 
 function AboutComponent() {
     useEffect(() => {
@@ -25,7 +26,7 @@ function AboutComponent() {
                            mengembangkan kemampuan diri saya.
                     </p>
 
-                    <Button variant="primary"> Download CV </Button>
+                    <Button href={MyPDF} download="CV.pdf" variant="primary"> Download CV </Button>
                 </Col>
 
             </Row>

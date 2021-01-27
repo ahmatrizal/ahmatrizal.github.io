@@ -21,7 +21,7 @@ function PortfolioComponent() {
                         Untuk Portfolio atau project yang sudah saya kerjakan , bisa cek github saya dengan menekan tombol yang ada dibawah
                     </p>
 
-                    <Button variant="primary"> Go to Github </Button>
+                    <Button variant="primary" href="https://github.com/ahmatrizal"> Go to Github </Button>
                 </Col>
 
                 <Col md={6} xs={12} className="mt-3" data-aos="fade-left">
