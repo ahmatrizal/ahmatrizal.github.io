@@ -12,7 +12,9 @@
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.1",
     "react-scroll-parallax": "^2.3.5",
+    "react-scrollspy": "^3.4.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

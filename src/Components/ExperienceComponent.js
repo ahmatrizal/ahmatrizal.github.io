@@ -10,7 +10,7 @@ function ExperienceComponent({ imageUrl, tanggal, namaPT, jabatan, descripisi}) 
     
 
     return (
-        <div className="experience" data-aos="flip-up">
+        <div className="experience" id="experience" data-aos="flip-up">
             <Container>
                 <Row>
                     <Col>

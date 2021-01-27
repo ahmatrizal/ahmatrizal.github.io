@@ -14,14 +14,14 @@ body {
 #logo {
   font-family: 'Satisfy',
     cursive;
-
+  color: rgb(226, 226, 26) !important;
   font-size: xx-large;
 }
 
 .nav-link {
   margin-left: 40px;
   cursor: pointer;
-  color: white !important;
+  color: rgb(226, 226, 26) !important;
   text-shadow: 1px 1px 1px;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .jumbotron {
-  background: url(./jumbo.jpg);
+  background: url(./atas.png);
   background-size: cover;
   color: white;
   height: 600px;
@@ -159,7 +159,7 @@ code {
   }
 
   .jumbotron {
-    background: url(./jumbo.jpg);
+    background: url(./mobile.png);
     background-size: cover;
   }
 

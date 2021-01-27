@@ -9,7 +9,7 @@ function JumbotronComponent () {
         Aos.init()
     }, [])
     return(
-        <div>
+        <div id="home">
             <Jumbotron>
                 <div id="text-jumbo" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <h1>Hi i'm Ahmat Rizal</h1>

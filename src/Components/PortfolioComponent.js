@@ -12,7 +12,7 @@ function PortfolioComponent() {
     
 
     return (
-        <div className="portfolio" data-aos="fade-up">
+        <div className="portfolio" id="portfolio" data-aos="fade-up">
             <Container> 
             <Row>
                 <Col md={6} xs={12}>

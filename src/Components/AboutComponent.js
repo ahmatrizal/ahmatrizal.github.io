@@ -9,7 +9,7 @@ function AboutComponent() {
     }, [])
 
     return (
-        <div className="about">
+        <div className="about" id="about">
           <Container> 
             <Row>
                 <Col md={6} xs={12} data-aos="fade-right">

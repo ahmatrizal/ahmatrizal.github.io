@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 function ContactComponent() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <Container>
                 <Row>
                     <Col md={4} xs={12}>
