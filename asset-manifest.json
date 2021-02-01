@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.d593e280.chunk.css",
-    "main.js": "/static/js/main.2832b53e.chunk.js",
-    "main.js.map": "/static/js/main.2832b53e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.02e951fe.js",
-    "runtime-main.js.map": "/static/js/runtime-main.02e951fe.js.map",
-    "static/css/2.1c44f44c.chunk.css": "/static/css/2.1c44f44c.chunk.css",
-    "static/js/2.592d4d32.chunk.js": "/static/js/2.592d4d32.chunk.js",
-    "static/js/2.592d4d32.chunk.js.map": "/static/js/2.592d4d32.chunk.js.map",
-    "static/js/3.835c5acd.chunk.js": "/static/js/3.835c5acd.chunk.js",
-    "static/js/3.835c5acd.chunk.js.map": "/static/js/3.835c5acd.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.1c44f44c.chunk.css.map": "/static/css/2.1c44f44c.chunk.css.map",
-    "static/css/main.d593e280.chunk.css.map": "/static/css/main.d593e280.chunk.css.map",
-    "static/js/2.592d4d32.chunk.js.LICENSE.txt": "/static/js/2.592d4d32.chunk.js.LICENSE.txt",
-    "static/media/CV.a30ef707.pdf": "/static/media/CV.a30ef707.pdf",
-    "static/media/index.css": "/static/media/tengah.810a15b1.png"
+    "main.css": "/web-profile/static/css/main.49ce1892.chunk.css",
+    "main.js": "/web-profile/static/js/main.2832b53e.chunk.js",
+    "main.js.map": "/web-profile/static/js/main.2832b53e.chunk.js.map",
+    "runtime-main.js": "/web-profile/static/js/runtime-main.676ddb9d.js",
+    "runtime-main.js.map": "/web-profile/static/js/runtime-main.676ddb9d.js.map",
+    "static/css/2.1c44f44c.chunk.css": "/web-profile/static/css/2.1c44f44c.chunk.css",
+    "static/js/2.592d4d32.chunk.js": "/web-profile/static/js/2.592d4d32.chunk.js",
+    "static/js/2.592d4d32.chunk.js.map": "/web-profile/static/js/2.592d4d32.chunk.js.map",
+    "static/js/3.835c5acd.chunk.js": "/web-profile/static/js/3.835c5acd.chunk.js",
+    "static/js/3.835c5acd.chunk.js.map": "/web-profile/static/js/3.835c5acd.chunk.js.map",
+    "index.html": "/web-profile/index.html",
+    "static/css/2.1c44f44c.chunk.css.map": "/web-profile/static/css/2.1c44f44c.chunk.css.map",
+    "static/css/main.49ce1892.chunk.css.map": "/web-profile/static/css/main.49ce1892.chunk.css.map",
+    "static/js/2.592d4d32.chunk.js.LICENSE.txt": "/web-profile/static/js/2.592d4d32.chunk.js.LICENSE.txt",
+    "static/media/CV.a30ef707.pdf": "/web-profile/static/media/CV.a30ef707.pdf",
+    "static/media/index.css": "/web-profile/static/media/tengah.810a15b1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.02e951fe.js",
+    "static/js/runtime-main.676ddb9d.js",
     "static/css/2.1c44f44c.chunk.css",
     "static/js/2.592d4d32.chunk.js",
-    "static/css/main.d593e280.chunk.css",
+    "static/css/main.49ce1892.chunk.css",
     "static/js/main.2832b53e.chunk.js"
   ]
 }
